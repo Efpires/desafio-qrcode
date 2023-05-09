@@ -50,12 +50,11 @@ body {
 
 footer {
     text-align: center;
-    position: relative;
-    top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
-}
+    position: fixed;
+    width: 100%;
+    color: var(--cor2);
+    }
 
 
 @media (min-width: 375px) {
