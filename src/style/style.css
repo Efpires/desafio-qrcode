@@ -60,11 +60,12 @@ footer {
 
 @media (min-width: 375px) {
     .content {
-        width: 350px;
+        width: 330px;
+        height: 500px;
     }
 
     .content img {
-        width: 350px;
+        width: 330px;
     }
 
 }
