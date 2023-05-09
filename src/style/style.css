@@ -37,14 +37,14 @@ body {
 }
 
 .content h1 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 16px;
 }
 
 .content p {
     font-size: 1em;
     color: var(--cor2);
-    padding: 0 44px;
+    padding: 0 19px;
     text-align: center;
 }
 
@@ -58,14 +58,15 @@ footer {
     }
 
 
-@media (min-width: 375px) {
+@media (max-width: 425px) {
     .content {
-        width: 330px;
+        width: 300px;
         height: 500px;
+        
     }
 
     .content img {
-        width: 330px;
+        width: 300px;
     }
 
 }
