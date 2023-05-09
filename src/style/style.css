@@ -53,8 +53,12 @@ body {
 }
 
 
-@media (max-widht: 425px) { 
+@media (min-width: 375px) {
     .content {
-    width: 375px;
-    }    
+        width: 350px;
+    }
+
+    .content img {
+        width: 350px;
+    }
 }
